@@ -1,0 +1,308 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #333;
+	color: white;
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.intro {
+	position: relative;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.navtext {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+
+.gallery {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.classtitle {
+	font-weight: bold;
+}
+
+.scheduleheader {
+	margin: 6px;	
+}
+
+.subheader {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+@media screen and (max-width: 700px) {
+	.navtext {
+		width: 100%;
+		text-align: center;
+	}
+	.logo {
+		text-align: center;	
+	}
+	.resize {
+		text-align: center;
+		display: block;
+	}
+	.drop-content a {
+		text-align: center;
+	}
+	.bio {
+		padding-top: 1em;
+		text-align: center;
+	}
+	.trainerpic {
+		min-width: 300px;
+	}
+}
+
+.drop {
+	float: left;
+	overflow: hidden;
+}
+
+.drop .dropbutton {
+	font-size: 20px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 20px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.orange {
+	background-color: #F7931E;
+}
+.lightorange {
+	background-color: #fbc98e;
+}
+
+.graytext {
+	color: #333;
+}
+
+.hours {
+	width: 18rem;
+	color: #333;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.sched {
+	max-width: 800px;	
+	color: #333;
+}
+
+.selectDay:focus,  
+.selectDay:active,
+.selectDay.active {
+    background-color:#F7931E;
+}
+
+button.nav-link.selectDay.active {
+	background-color: #F7931E;
+}
+
+.trainerbutton {
+	background-color: #F7931E;
+	text-align: center;
+	display: block;
+	margin: auto;
+	border-color: #333;
+}
+
+.trainerbutton:hover {
+	background-color: #fbc98e;
+}
+
+.price {
+	text-align: center;
+	display: block;
+	margin: auto;
+	color: #333;
+	max-width: 600px;
+}
+
+.narrow {
+	max-width: 1000px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.facilites {
+	max-width: 800px;
+	text-align: center;
+}
+
+.amenities {
+	margin: auto;
+	color: #333;
+	display: inline;
+}
+
+ul.amenities {
+	list-style: none;
+    text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	display: inline;
+}
+
+.feather {
+	width: 20px;
+	height: 20px;
+	stroke: #F7931E;
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: #F7931E;
+	margin-right: 1em;
+	margin-bottom: 0.3em;
+}
+
+.price {
+	width: 100%;
+	padding: 0px;
+}
+			
+.footer {
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #F7931E;
+	color: #333;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 6px;
+}
+
+.day {
+	display: none;
+}
+
+.contact-intro {
+	color: #333;
+}
+
+#contact-form {
+    display:block;
+}
+
+.contact-body {
+    margin: 0;
+    font-family: helvetica,arial,courier;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    background-color: #F7931E;
+    padding: 30px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+.contact-form-group {
+    margin-bottom: 1em;
+}
+
+.contact-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.contact-form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25em;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea.contact-form-control {
+    font-family: helvetica,arial,courier;
+    height: auto;
+}
+
+label.contact-label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+.contact-btn {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0.25em;
+	max-width: 75%;
+}
+
+.contact-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.contact-btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #4a4948;
+}
+
+.contact-btn-primary:hover {
+    color: #fff;
+    background-color: #848381;
+    border-color: #848381;
+}
+
+.contact-btn-lg, .contact-btn-group-lg>.contact-btn {
+    padding: 0.5em 1em;
+    font-size: 1.25em;
+    line-height: 1.5;
+    border-radius: 0.3em;
+}
+
+.contact-btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, input[type="button"].contact-btn-block {
+    width: 100%;
+}
