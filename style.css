@@ -204,7 +204,7 @@ ul.amenities {
 }
 
 .contact-body {
-    margin: 0;
+    // margin: 5em; //
     font-family: helvetica,arial,courier;
     font-weight: bold;
     line-height: 1.5;
